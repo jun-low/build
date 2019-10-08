@@ -27,13 +27,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-style: italic; }
 
-a > .link-underline {
-  color: #ffffff;
-  text-decoration: underline; }
-  a > .link-underline:hover {
-    color: #ffffff;
-    opacity: 0.7; }
-
 .animated-intro p span.typed-text {
   font-weight: normal;
   color: #fff; }
