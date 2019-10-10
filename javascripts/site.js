@@ -30,13 +30,12 @@ $(document).on('ready', function () {
     //Page Loader : hide loader when all are loaded
     $(window).on('load', function () {
       $('.page-loader').addClass('p-hidden');
-      $('.section').addClass('anim');
     });
   
     // cursor position
     (function() {
       document.addEventListener("mousemove", parallax);
-      // const elem = document.querySelector("#parallax");
+      // const element = document.querySelector("#parallax");
       function parallax(e) {
         let w = window.innerWidth/2;
         let h = window.innerHeight/2;
