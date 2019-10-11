@@ -65,7 +65,6 @@
   background-color: #1d1d1d;
   background-attachment: fixed;
   background-size: cover;
-  background-position: 50% 50%;
   color: #ffffff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bg-default.jpeg);
   position: relative; }
@@ -74,7 +73,7 @@
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bg-pallax.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/bg-pallax.jpg);
   transition: 0.05s ease-in-out;
   background-repeat: no-repeat;
   background-size: contain;

@@ -259,7 +259,7 @@
   font-size: 1rem;
   font-weight: bold; }
 
-/* 5.2 Home section layout */
+/* Home section layout */
 .section-home {
   min-height: 640px;
   min-height: 90vh; }
@@ -347,7 +347,7 @@
   .section-home .section-aside {
     display: block; } }
 
-/* 5.3 Section list / .section-list */
+/* Section list */
 .section-list .item {
   margin-top: 40px;
   margin-bottom: 40px; }
@@ -463,8 +463,5 @@
     font-size: 3.5rem; } }
 
 @media (min-width: 960px) and (orientation: landscape) {
-  .slide-wrapper .legend h3 {
-    margin-left: -18px; } }
-
-.slide-wrapper .legend h4 {
-  font-size: 1.25rem; }
+  .slide-wrapper .legend h4 {
+    font-size: 1.25rem; } }
