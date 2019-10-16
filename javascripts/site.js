@@ -1,6 +1,8 @@
 // This is where it all goes :)
 // Init all plugin
 $(document).on('ready', function () {
+    // AOS Library
+    AOS.init();
 
     // Show/hide menu when icon is clicked
     const menuItems   = $('.all-menu-wrapper .nav-link');
@@ -27,10 +29,10 @@ $(document).on('ready', function () {
     });
   },)
   
-    //Page Loader : hide loader when all are loaded
-    // $(window).on('load', function () {
-    //   $('.page-loader').addClass('p-hidden');
-    // });
+    // Page Loader : hide loader when all are loaded
+    $(window).on('load', function () {
+      $('.page-loader').addClass('p-hidden');
+    });
   
     // cursor position
     (function() {
