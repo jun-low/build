@@ -35,19 +35,18 @@ $(document).on('ready', function () {
     });
   
     // cursor position
-    (function() {
-      document.addEventListener("mousemove", parallax);
-      // const element = document.querySelector("#parallax");
-      function parallax(e) {
-        let w = window.innerWidth/2;
-        let h = window.innerHeight/2;
-        let mouseX = e.clientX;
-        let mouseY = e.clientY;
-        let x = `${50 - (mouseX - w) * 0.01}% ${50 - (mouseY - h) * 0.01}%`;
-        // console.log(x);
-        document.querySelector(".body-page").style.backgroundPosition = x;
-      }
-  
-    })();
+    // (function() {
+    //   document.addEventListener("mousemove", parallax);
+    //   // const element = document.querySelector("#parallax");
+    //   function parallax(e) {
+    //     let w = window.innerWidth/2;
+    //     let h = window.innerHeight/2;
+    //     let mouseX = e.clientX;
+    //     let mouseY = e.clientY;
+    //     let x = `${50 - (mouseX - w) * 0.01}% ${50 - (mouseY - h) * 0.01}%`;
+    //     // console.log(x);
+    //     document.querySelector(".body-page").style.backgroundPosition = x;
+    //   }
+    // })();
 
 
