@@ -30,9 +30,9 @@ $(document).on('ready', function () {
   },)
   
     // Page Loader : hide loader when all are loaded
-    $(window).on('load', function () {
-      $('.page-loader').addClass('p-hidden');
-    });
+    // $(window).on('load', function () {
+    //   $('.page-loader').addClass('p-hidden');
+    // });
   
     // cursor position
     // (function() {
