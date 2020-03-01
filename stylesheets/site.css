@@ -781,6 +781,13 @@ p {
   margin-left: 0px;
   margin-right: 0px; }
 
+.dev-badge {
+  margin-top: -14px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%); }
+  .dev-badge:hover {
+    opacity: 0.5; }
+
 .page-header {
   position: fixed; }
 
@@ -792,6 +799,10 @@ p {
   z-index: 2;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out; }
+
+@media only screen and (max-width: 768px) {
+  .page-header-alpha {
+    opacity: 0 !important; } }
 
 @media (min-width: 768px) {
   .page-header-alpha {

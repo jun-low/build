@@ -393,3 +393,9 @@
 .icons-margin {
   margin-left: 0px;
   margin-right: 0px; }
+
+.dev-badge {
+  margin-top: -14px;
+  filter: invert(100%); }
+  .dev-badge:hover {
+    opacity: 0.5; }
