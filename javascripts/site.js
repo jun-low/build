@@ -29,8 +29,8 @@ $(document).on('ready', function () {
   });
   
   // Typing effect
-  const typedTextSpan = $(".typed-text");
-  const cursorSpan    = $(".cursor");
+  const typedTextSpan = document.querySelector(".typed-text");
+  const cursorSpan    = document.querySelector(".cursor");
   const textArray     = ["Hello!", "Bonjour!", "Hola!", "Ciào!", "Hallo!", "Olá!","G'day!","Hej!","Aloha!"];
   const typingDelay   = 100;
   const erasingDelay  = 80;
