@@ -62,20 +62,33 @@
 
 .body-page {
   padding: 0;
-  background-color: #1d1d1d;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #ffffff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bg-default.jpeg);
+  background-color: #fff;
+  color: #35375e;
   position: relative; }
 
-#parallax {
+.profile-image-container {
+  width: 250px;
+  height: 250px;
   position: absolute;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/bg-pallax.jpg);
-  transition: 0.05s ease-in-out;
-  background-repeat: no-repeat;
-  background-size: contain;
+  right: 10%;
+  top: 3%; }
+
+.profile-image-container img {
+  animation: blob-animation 2.5s linear infinite;
+  border: 2px solid #fbc547;
   object-fit: cover;
-  background-position: right; }
+  width: 100%;
+  height: 100%; }
+
+/* BLOB CSS ANIMATION */
+@keyframes blob-animation {
+  0% {
+    border-radius: 50% 32% 20% 70%/60% 40% 55% 40%; }
+  25% {
+    border-radius: 40% 57% 40% 81% / 84% 76% 45% 38%; }
+  50% {
+    border-radius: 25% 68% 40% 46% / 59% 36% 45% 38%; }
+  75% {
+    border-radius: 40% 27% 26% 58%/70% 36% 64% 32%; }
+  100% {
+    border-radius: 50% 32% 20% 70%/60% 40% 55% 40%; } }

@@ -264,7 +264,7 @@
   .page-header-alpha .navbar-mainmenu {
     position: fixed;
     z-index: 9;
-    background: #1d1d1d;
+    background: #35375e;
     display: flex;
     align-items: center;
     top: 0;
@@ -472,7 +472,7 @@
   .page-cover {
     transition: 0.6s; }
   .page-header-alpha .navbar-mainmenu {
-    background: rgba(29, 29, 29, 0.5); } }
+    background: rgba(53, 55, 94, 0.8); } }
 
 @media (min-width: 768px) {
   .menu-icon {
@@ -481,19 +481,18 @@
     transition: 0.3s;
     display: inline-block;
     position: relative;
-    background: #1E1E1E;
-    border-radius: 2px;
+    border-radius: 16px;
     opacity: 1; }
   .menu-icon.menu-bg {
     background: #3f4b62; } }
 
 @media (min-width: 768px) and (min-width: 768px) {
   .menu-icon {
-    background: rgba(0, 0, 0, 0.2); } }
+    background: rgba(53, 55, 94, 0.5); } }
 
 @media (min-width: 768px) and (min-width: 960px) {
   .menu-icon {
-    background: none; } }
+    background: rgba(53, 55, 94, 0.5); } }
 
 @media (min-width: 768px) {
   .menu-icon:after {

@@ -52,7 +52,6 @@
   background-color: transparent; }
 
 .btn-outline-white.disabled, .btn-outline-white:disabled {
-  color: #ffffff;
   opacity: 0.7;
   background-color: transparent; }
 
@@ -61,7 +60,6 @@
 
 .btn-circicon {
   min-width: auto;
-  color: #ffffff;
   border: none;
   background: none;
   position: relative;
@@ -73,7 +71,7 @@
   transition: 0.2s; }
 
 .btn-circicon > .icon {
-  background: #ffffff;
+  background: #35375e;
   color: #fbc547;
   vertical-align: middle;
   position: relative;
@@ -217,7 +215,6 @@
   margin-right: -2rem; }
 
 .btn-transp-arrow {
-  color: #ffffff;
   border: none;
   background-color: transparent;
   padding-right: 0;
@@ -232,10 +229,8 @@
   box-shadow: none; }
 
 .btn-transp-arrow > .icon {
-  color: currentColor;
   position: relative;
   display: inline-block;
-  opacity: 0.5;
   transition: 0.2s; }
 
 .btn-transp-arrow > .icon .fa,
@@ -327,7 +322,7 @@
   margin-left: 32px; }
 
 .btn-transp-arrow.active, .btn-transp-arrow:active, .btn-transp-arrow:focus, .btn-transp-arrow:hover {
-  color: #ffffff;
+  color: inherit;
   background: none; }
 
 .btn-transp-arrow.active .icon, .btn-transp-arrow:active .icon, .btn-transp-arrow:focus .icon, .btn-transp-arrow:hover .icon {
@@ -362,9 +357,9 @@
   left: 0.75rem; }
 
 .btn-transp-arrow.disabled, .btn-transp-arrow:disabled {
-  color: #ffffff;
+  color: inherit;
   opacity: 0.7;
-  background-color: #1b1b1b; }
+  background-color: #35375e; }
 
 .btn-transp-arrow.icon-left {
   padding-left: 3rem;
@@ -383,20 +378,19 @@
   padding: 0px 8px;
   display: inline-block;
   transition: 0.3s;
-  color: #ffffff; }
+  color: #35375e; }
 
 .icon-btn .icon {
   font-size: 32px; }
 
 .icon-btn:hover {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(53, 55, 94, 0.5); }
 
 .icons-margin {
   margin-left: 0px;
   margin-right: 0px; }
 
 .dev-badge {
-  margin-top: -14px;
-  filter: invert(100%); }
+  margin-top: -14px; }
   .dev-badge:hover {
     opacity: 0.5; }
