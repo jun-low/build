@@ -169,7 +169,7 @@
   .page-header-alpha .all-menu-wrapper .navbar-nav .nav-item a.active {
     color: currentColor; }
   .page-header-alpha .all-menu-wrapper .navbar-nav .nav-item a.hover {
-    color: #fbc547; } }
+    color: #cc9e56; } }
 
 @media (min-width: 768px) and (min-width: 768px) {
   .page-header-alpha .all-menu-wrapper {
@@ -307,7 +307,7 @@
     color: white;
     transition: 0.3s; }
   .page-header-alpha .navbar-mainmenu .nav-item a:hover {
-    color: #fbc547; } }
+    color: #cc9e56; } }
 
 @media (min-width: 768px) and (min-width: 768px) {
   .page-header-alpha .navbar-mainmenu .nav-item {

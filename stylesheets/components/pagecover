@@ -62,7 +62,7 @@
 
 .body-page {
   padding: 0;
-  background-color: #fff;
+  background-color: #edeae3;
   color: #35375e;
   position: relative; }
 
@@ -75,7 +75,7 @@
 
 .profile-image-container img {
   animation: blob-animation 2.5s linear infinite;
-  border: 2px solid #fbc547;
+  border: 2px solid #617f93;
   object-fit: cover;
   width: 100%;
   height: 100%; }

@@ -72,7 +72,7 @@
 
 .btn-circicon > .icon {
   background: #35375e;
-  color: #fbc547;
+  color: #cc9e56;
   vertical-align: middle;
   position: relative;
   height: 24px;
@@ -84,7 +84,7 @@
 
 .btn-circicon > .icon:before {
   content: "";
-  background: #fbc547;
+  background: #cc9e56;
   position: absolute;
   top: 0;
   left: 0;
@@ -118,7 +118,7 @@
   background: none;
   border: none;
   box-shadow: none;
-  color: #fbc547; }
+  color: #cc9e56; }
 
 .btn-circicon:focus > .icon, .btn-circicon:hover > .icon {
   background: rgba(255, 255, 255, 0.2); }

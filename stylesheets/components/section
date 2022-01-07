@@ -449,7 +449,7 @@
     width: 100%; } }
 
 .slide-wrapper .legend a {
-  color: inherit; }
+  color: #b0979b; }
 
 .slide-wrapper .legend a:hover {
   text-decoration: none; }

@@ -8,7 +8,7 @@ html {
 
 body {
   font-size: 1rem;
-  background-color: #ffffff;
+  background-color: #edeae3;
   color: #35375e;
   margin: 0 auto;
   padding: 0;
@@ -20,7 +20,7 @@ ul, li {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Yeseva One', cursive;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.02); }
 
 .text-sm {
   font-size: 0.65rem;
@@ -47,7 +47,7 @@ a {
   height: 1px;
   content: '';
   opacity: 0;
-  background: #fbc547;
+  background: #cc9e56;
   -webkit-transition: height .3s,opacity .3s,-webkit-transform .3s;
   transition: height .3s,opacity .3s,-webkit-transform .3s;
   transition: height .3s,opacity .3s,transform .3s;
@@ -62,7 +62,7 @@ a {
 
 .animated-intro p span.typed-text {
   font-weight: normal;
-  color: #fbc547; }
+  color: #cc9e56; }
 
 .animated-intro p span.cursor {
   display: inline-block;
@@ -238,7 +238,7 @@ p {
 
 .img-service {
   font-size: 32px;
-  color: #fbc547; }
+  color: #cc9e56; }
 
 .media-body {
   margin-left: 12px; }
@@ -298,7 +298,7 @@ p {
     font-size: 3.5rem; } }
 
 .display-yellow {
-  color: #fbc547; }
+  color: #cc9e56; }
 
 .right-title {
   padding-right: 18rem;
